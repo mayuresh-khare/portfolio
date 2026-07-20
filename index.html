@@ -1,0 +1,1457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ── Primary SEO ── -->
+  <title>Mayuresh Khare | Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Mayuresh Khare — B.Tech Computer Engineering student at LTCE Mumbai, specialising in AI & Data Science. Projects in machine learning, web development, and data analytics." />
+  <meta name="keywords"
+    content="Mayuresh Khare, Computer Engineering, AI, Data Science, Machine Learning, Portfolio, LTCE, Mumbai" />
+  <meta name="author" content="Mayuresh Khare" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- ── Theme colour (browser chrome on Android) ── -->
+  <meta name="theme-color" content="#0d1b4b" />
+
+  <!-- ── Favicon — inline SVG data URI (no file needed) ── -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='12' fill='%230d1b4b'/%3E%3Ctext x='50%25' y='58%25' font-family='Inter,sans-serif' font-size='22' font-weight='900' fill='white' text-anchor='middle' dominant-baseline='middle'%3EMK%3C/text%3E%3C/svg%3E" />
+  <link rel="apple-touch-icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Crect width='180' height='180' rx='40' fill='%230d1b4b'/%3E%3Ctext x='50%25' y='58%25' font-family='Inter,sans-serif' font-size='88' font-weight='900' fill='white' text-anchor='middle' dominant-baseline='middle'%3EMK%3C/text%3E%3C/svg%3E" />
+
+  <!-- ── Open Graph ── -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mayureshkhare.dev/" />
+  <meta property="og:title" content="Mayuresh Khare | Portfolio" />
+  <meta property="og:description"
+    content="Computer Engineering student specialising in AI & Data Science. Building projects in ML, web development, and data analytics." />
+  <meta property="og:image" content="https://mayureshkhare.dev/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="en_IN" />
+  <meta property="og:site_name" content="Mayuresh Khare" />
+
+  <!-- ── Twitter Card ── -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mayuresh Khare | Portfolio" />
+  <meta name="twitter:description"
+    content="Computer Engineering student | AI & Data Science | ML, Web Dev, Data Analytics" />
+  <meta name="twitter:image" content="https://mayureshkhare.dev/og-image.png" />
+  <meta name="twitter:creator" content="@MayureshKhare" />
+
+  <!-- ── Google Fonts ── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <!-- ── Phosphor Icons ── -->
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js" defer></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ===== LOADING SCREEN ===== -->
+  <div id="loader" class="loader" aria-hidden="true" role="presentation">
+    <div class="loader-logo">
+      <span class="loader-mk">MK</span>
+      <div class="loader-ring"></div>
+    </div>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar" class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" id="nav-logo-link" aria-label="Mayuresh Khare Home">
+        <span class="logo-initials">MK</span>
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#learning-journey" class="nav-link">Journey</a></li>
+        <li><a href="#leadership" class="nav-link">Leadership</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+    <button class="mobile-close" id="mobile-close" aria-label="Close navigation menu">
+      <i class="ph ph-x"></i>
+    </button>
+    <ul class="mobile-links" role="list">
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#education" class="mobile-link">Education</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#projects" class="mobile-link">Projects</a></li>
+      <li><a href="#certifications" class="mobile-link">Certifications</a></li>
+      <li><a href="#learning-journey" class="mobile-link">Journey</a></li>
+      <li><a href="#leadership" class="mobile-link">Leadership</a></li>
+      <li><a href="#resume" class="mobile-link">Resume</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+  <div class="mobile-overlay" id="mobile-overlay"></div>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero" class="hero">
+    <div class="hero-bg-grid" aria-hidden="true"></div>
+    <div class="hero-inner container">
+      <div class="hero-badge reveal-up">
+        <span class="badge-dot"></span>
+        <span>Open to Internships &amp; Opportunities</span>
+      </div>
+      <h1 class="hero-name reveal-up" style="--delay:0.1s">Mayuresh Khare</h1>
+      <p class="hero-title reveal-up" style="--delay:0.2s">Computer Engineering Student&nbsp;&nbsp;·&nbsp;&nbsp;AI &amp;
+        Data Science Honors</p>
+      <p class="hero-tagline reveal-up" style="--delay:0.3s">Building intelligent solutions through software,
+        data,&nbsp;and continuous learning.</p>
+      <div class="hero-actions reveal-up" style="--delay:0.4s">
+        <a href="#projects" class="btn btn-primary" id="hero-view-work">View My Work</a>
+        <a href="#contact" class="btn btn-outline" id="hero-get-in-touch">Get In Touch</a>
+      </div>
+      <div class="hero-stats reveal-up" style="--delay:0.5s">
+        <div class="stat-item">
+          <span class="stat-num">9.05</span>
+          <span class="stat-label">Current CGPA</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item">
+          <span class="stat-num">4+</span>
+          <span class="stat-label">Projects Built</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item">
+          <span class="stat-num">3+</span>
+          <span class="stat-label">Certifications</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+      <i class="ph ph-arrow-down"></i>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="section-label reveal-up">About</div>
+      <h2 class="section-heading reveal-up">Who I Am</h2>
+      <div class="about-grid">
+        <div class="about-text reveal-left">
+          <p>
+            I'm <strong>Mayuresh Khare</strong>, a second-year Computer Engineering student at Lokmanya Tilak College of
+            Engineering, specialising in AI &amp; Data Science. I got into programming because I wanted to understand
+            how things work — and then build things that actually work. That curiosity is still what drives most of what
+            I do.
+          </p>
+          <p>
+            Over the past two years I've built projects across web development, machine learning, and data analysis —
+            including a wildfire vegetation recovery model that hit R²&nbsp;0.85, and a financial transaction analyser
+            that helped make sense of spending patterns. I'm most comfortable when I'm learning something unfamiliar,
+            writing code I'm not embarrassed by, and working with people who care about getting the details right.
+          </p>
+          <div class="about-tags">
+            <span class="tag">Software Development</span>
+            <span class="tag">Machine Learning</span>
+            <span class="tag">Data Analytics</span>
+            <span class="tag">Problem Solving</span>
+            <span class="tag">Teamwork</span>
+          </div>
+        </div>
+        <div class="about-card-col reveal-right">
+          <div class="about-card glass-card">
+            <div class="about-card-icon"><i class="ph ph-graduation-cap"></i></div>
+            <h3>B.Tech Computer Engineering</h3>
+            <p>Lokmanya Tilak College of Engineering, Mumbai</p>
+          </div>
+          <div class="about-card glass-card">
+            <div class="about-card-icon"><i class="ph ph-brain"></i></div>
+            <h3>AI &amp; Data Science Honors</h3>
+            <p>Specialization track alongside core CE curriculum</p>
+          </div>
+          <div class="about-card glass-card">
+            <div class="about-card-icon"><i class="ph ph-chart-line-up"></i></div>
+            <h3>9.05 CGPA</h3>
+            <p>Consistent academic excellence across semesters</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" class="section education bg-subtle">
+    <div class="container">
+      <div class="section-label reveal-up">Education</div>
+      <h2 class="section-heading reveal-up">Academic Background</h2>
+      <div class="edu-card reveal-up">
+        <div class="edu-header">
+          <div class="edu-icon-wrap" aria-hidden="true">
+            <i class="ph ph-buildings"></i>
+          </div>
+          <div class="edu-title-block">
+            <h3 class="edu-institution">Lokmanya Tilak College of Engineering</h3>
+            <p class="edu-degree">B.Tech in Computer Engineering</p>
+            <p class="edu-honors">Honors in Artificial Intelligence &amp; Data Science</p>
+          </div>
+          <div class="edu-badge-wrap">
+            <span class="edu-status-badge">In Progress</span>
+          </div>
+        </div>
+        <div class="edu-cgpa-grid">
+          <div class="cgpa-card" id="cgpa-y1">
+            <div class="cgpa-year">Year 1</div>
+            <div class="cgpa-score">9.03</div>
+            <div class="cgpa-bar-wrap" aria-hidden="true">
+              <div class="cgpa-bar" style="--fill:90.3%"></div>
+            </div>
+            <div class="cgpa-label">CGPA</div>
+          </div>
+          <div class="cgpa-card" id="cgpa-y2">
+            <div class="cgpa-year">Year 2</div>
+            <div class="cgpa-score">9.05</div>
+            <div class="cgpa-bar-wrap" aria-hidden="true">
+              <div class="cgpa-bar" style="--fill:90.5%"></div>
+            </div>
+            <div class="cgpa-label">CGPA</div>
+          </div>
+        </div>
+        <div class="edu-focus-row">
+          <div class="edu-focus-item"><i class="ph ph-check-circle"></i> Artificial Intelligence</div>
+          <div class="edu-focus-item"><i class="ph ph-check-circle"></i> Data Science &amp; Analytics</div>
+          <div class="edu-focus-item"><i class="ph ph-check-circle"></i> Machine Learning</div>
+          <div class="edu-focus-item"><i class="ph ph-check-circle"></i> Software Engineering</div>
+          <div class="edu-focus-item"><i class="ph ph-check-circle"></i> Database Systems</div>
+          <div class="edu-focus-item"><i class="ph ph-check-circle"></i> Computer Networks</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <div class="section-label reveal-up">Expertise</div>
+      <h2 class="section-heading reveal-up">Technical Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-category reveal-up" style="--delay:0.05s">
+          <div class="skill-cat-header">
+            <i class="ph ph-code"></i>
+            <h3>Programming Languages</h3>
+          </div>
+          <div class="skill-chips">
+            <span class="skill-chip chip-primary"><i class="ph ph-file-py"></i> Python</span>
+            <span class="skill-chip chip-primary"><i class="ph ph-coffee"></i> Java</span>
+            <span class="skill-chip chip-primary"><i class="ph ph-file-html"></i> HTML</span>
+            <span class="skill-chip chip-primary"><i class="ph ph-paint-brush"></i> CSS</span>
+            <span class="skill-chip chip-primary"><i class="ph ph-file-js"></i> JavaScript</span>
+            <span class="skill-chip chip-primary"><i class="ph ph-database"></i> SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-up" style="--delay:0.1s">
+          <div class="skill-cat-header">
+            <i class="ph ph-stack"></i>
+            <h3>Framework</h3>
+          </div>
+          <div class="skill-chips">
+            <span class="skill-chip chip-accent"><i class="ph ph-flask"></i> Flask</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-up" style="--delay:0.15s">
+          <div class="skill-cat-header">
+            <i class="ph ph-package"></i>
+            <h3>Libraries</h3>
+          </div>
+          <div class="skill-chips">
+            <span class="skill-chip chip-accent">Pandas</span>
+            <span class="skill-chip chip-accent">NumPy</span>
+            <span class="skill-chip chip-accent">Scikit-learn</span>
+            <span class="skill-chip chip-accent">TensorFlow</span>
+            <span class="skill-chip chip-accent">PyTorch</span>
+            <span class="skill-chip chip-accent">Matplotlib</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-up" style="--delay:0.2s">
+          <div class="skill-cat-header">
+            <i class="ph ph-wrench"></i>
+            <h3>Tools &amp; Platforms</h3>
+          </div>
+          <div class="skill-chips">
+            <span class="skill-chip chip-neutral"><i class="ph ph-git-branch"></i> Git</span>
+            <span class="skill-chip chip-neutral"><i class="ph ph-github-logo"></i> GitHub</span>
+            <span class="skill-chip chip-neutral">Google Colab</span>
+            <span class="skill-chip chip-neutral">Jupyter Notebook</span>
+            <span class="skill-chip chip-neutral">Google Cloud</span>
+            <span class="skill-chip chip-neutral">MySQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-up" style="--delay:0.25s">
+          <div class="skill-cat-header">
+            <i class="ph ph-users"></i>
+            <h3>Soft Skills</h3>
+          </div>
+          <div class="skill-chips">
+            <span class="skill-chip chip-soft">Communication</span>
+            <span class="skill-chip chip-soft">Leadership</span>
+            <span class="skill-chip chip-soft">Teamwork</span>
+            <span class="skill-chip chip-soft">Critical Thinking</span>
+            <span class="skill-chip chip-soft">Problem Solving</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section projects bg-subtle">
+    <div class="container">
+      <div class="section-label reveal-up">Projects</div>
+      <h2 class="section-heading reveal-up">Featured Work</h2>
+      <p class="section-sub reveal-up">A selection of projects that demonstrate my skills across data science, web
+        development, and machine learning.</p>
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card reveal-up" style="--delay:0.05s" id="project-vegetation">
+          <div class="project-img-wrap">
+            <svg class="project-svg-placeholder" viewBox="0 0 760 220" xmlns="http://www.w3.org/2000/svg"
+              aria-label="Vegetation Recovery Rate Prediction">
+              <defs>
+                <linearGradient id="veg-bg" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#1b4332" />
+                  <stop offset="55%" stop-color="#2d6a4f" />
+                  <stop offset="100%" stop-color="#40916c" />
+                </linearGradient>
+                <linearGradient id="veg-bar1" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#74c69d" />
+                  <stop offset="100%" stop-color="#52b788" stop-opacity="0.4" />
+                </linearGradient>
+                <linearGradient id="veg-bar2" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#95d5b2" />
+                  <stop offset="100%" stop-color="#74c69d" stop-opacity="0.4" />
+                </linearGradient>
+                <linearGradient id="veg-line" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stop-color="#b7e4c7" />
+                  <stop offset="100%" stop-color="#d8f3dc" />
+                </linearGradient>
+                <filter id="veg-glow">
+                  <feGaussianBlur stdDeviation="3" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+              </defs>
+              <!-- Background -->
+              <rect width="760" height="220" fill="url(#veg-bg)" />
+              <!-- Subtle grid -->
+              <g opacity="0.08" stroke="#d8f3dc" stroke-width="0.5">
+                <line x1="0" y1="55" x2="760" y2="55" />
+                <line x1="0" y1="110" x2="760" y2="110" />
+                <line x1="0" y1="165" x2="760" y2="165" />
+                <line x1="190" y1="0" x2="190" y2="220" />
+                <line x1="380" y1="0" x2="380" y2="220" />
+                <line x1="570" y1="0" x2="570" y2="220" />
+              </g>
+              <!-- Satellite heatmap grid tiles -->
+              <g opacity="0.22">
+                <rect x="30" y="30" width="22" height="22" rx="2" fill="#d62828" />
+                <rect x="56" y="30" width="22" height="22" rx="2" fill="#e07b39" />
+                <rect x="82" y="30" width="22" height="22" rx="2" fill="#f4a261" />
+                <rect x="30" y="56" width="22" height="22" rx="2" fill="#e07b39" />
+                <rect x="56" y="56" width="22" height="22" rx="2" fill="#f4a261" />
+                <rect x="82" y="56" width="22" height="22" rx="2" fill="#52b788" />
+                <rect x="30" y="82" width="22" height="22" rx="2" fill="#74c69d" />
+                <rect x="56" y="82" width="22" height="22" rx="2" fill="#95d5b2" />
+                <rect x="82" y="82" width="22" height="22" rx="2" fill="#b7e4c7" />
+                <rect x="108" y="30" width="22" height="22" rx="2" fill="#f4a261" />
+                <rect x="108" y="56" width="22" height="22" rx="2" fill="#95d5b2" />
+                <rect x="108" y="82" width="22" height="22" rx="2" fill="#d8f3dc" />
+                <rect x="134" y="30" width="22" height="22" rx="2" fill="#52b788" />
+                <rect x="134" y="56" width="22" height="22" rx="2" fill="#b7e4c7" />
+                <rect x="134" y="82" width="22" height="22" rx="2" fill="#d8f3dc" />
+              </g>
+              <!-- Legend bar -->
+              <defs>
+                <linearGradient id="veg-legend" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stop-color="#d62828" />
+                  <stop offset="50%" stop-color="#f4a261" />
+                  <stop offset="100%" stop-color="#d8f3dc" />
+                </linearGradient>
+              </defs>
+              <rect x="30" y="118" width="132" height="8" rx="4" fill="url(#veg-legend)" opacity="0.7" />
+              <text x="30" y="140" font-family="Inter,sans-serif" font-size="8" fill="#d8f3dc"
+                opacity="0.6">Burned</text>
+              <text x="136" y="140" font-family="Inter,sans-serif" font-size="8" fill="#d8f3dc" opacity="0.6"
+                text-anchor="end">Recovered</text>
+              <!-- R² metric pill -->
+              <rect x="30" y="152" width="72" height="26" rx="13" fill="#d8f3dc" opacity="0.15" />
+              <text x="66" y="169" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#d8f3dc"
+                text-anchor="middle">R² = 0.85</text>
+              <!-- Recovery curve chart -->
+              <g transform="translate(220, 18)">
+                <!-- Chart area -->
+                <rect width="300" height="160" rx="6" fill="#ffffff" opacity="0.06" />
+                <!-- Y axis -->
+                <line x1="28" y1="10" x2="28" y2="148" stroke="#d8f3dc" stroke-width="0.8" opacity="0.4" />
+                <!-- X axis -->
+                <line x1="28" y1="148" x2="290" y2="148" stroke="#d8f3dc" stroke-width="0.8" opacity="0.4" />
+                <!-- Predicted line -->
+                <polyline points="28,138 68,122 108,100 148,78 188,58 228,44 268,34 290,28" fill="none" stroke="#95d5b2"
+                  stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#veg-glow)" />
+                <!-- Actual scatter dots -->
+                <circle cx="68" cy="125" r="3" fill="#d8f3dc" opacity="0.8" />
+                <circle cx="108" cy="97" r="3" fill="#d8f3dc" opacity="0.8" />
+                <circle cx="148" cy="82" r="3" fill="#d8f3dc" opacity="0.8" />
+                <circle cx="188" cy="55" r="3" fill="#d8f3dc" opacity="0.8" />
+                <circle cx="228" cy="46" r="3" fill="#d8f3dc" opacity="0.8" />
+                <circle cx="268" cy="30" r="3" fill="#d8f3dc" opacity="0.8" />
+                <!-- Area fill -->
+                <path d="M28,138 68,122 108,100 148,78 188,58 228,44 268,34 290,28 290,148 28,148 Z" fill="#52b788"
+                  opacity="0.12" />
+                <!-- x-axis labels -->
+                <text x="28" y="162" font-family="Inter,sans-serif" font-size="7.5" fill="#d8f3dc" opacity="0.5"
+                  text-anchor="middle">W1</text>
+                <text x="108" y="162" font-family="Inter,sans-serif" font-size="7.5" fill="#d8f3dc" opacity="0.5"
+                  text-anchor="middle">W4</text>
+                <text x="188" y="162" font-family="Inter,sans-serif" font-size="7.5" fill="#d8f3dc" opacity="0.5"
+                  text-anchor="middle">W8</text>
+                <text x="268" y="162" font-family="Inter,sans-serif" font-size="7.5" fill="#d8f3dc" opacity="0.5"
+                  text-anchor="middle">W12</text>
+                <!-- Legend -->
+                <line x1="36" y1="175" x2="52" y2="175" stroke="#95d5b2" stroke-width="2" />
+                <text x="56" y="178" font-family="Inter,sans-serif" font-size="8" fill="#d8f3dc"
+                  opacity="0.7">Predicted</text>
+                <circle cx="100" cy="175" r="3" fill="#d8f3dc" opacity="0.7" />
+                <text x="106" y="178" font-family="Inter,sans-serif" font-size="8" fill="#d8f3dc"
+                  opacity="0.7">Actual</text>
+              </g>
+              <!-- Satellite icon -->
+              <g transform="translate(568, 22)" opacity="0.55">
+                <rect x="20" y="8" width="32" height="20" rx="3" stroke="#d8f3dc" stroke-width="1.5" fill="none" />
+                <line x1="0" y1="18" x2="18" y2="18" stroke="#d8f3dc" stroke-width="1.5" />
+                <line x1="54" y1="18" x2="72" y2="18" stroke="#d8f3dc" stroke-width="1.5" />
+                <line x1="36" y1="0" x2="36" y2="6" stroke="#d8f3dc" stroke-width="1.5" />
+                <line x1="36" y1="30" x2="36" y2="40" stroke="#d8f3dc" stroke-width="1.5" />
+                <circle cx="36" cy="50" r="6" stroke="#95d5b2" stroke-width="1.5" fill="none" />
+                <circle cx="36" cy="50" r="2" fill="#95d5b2" opacity="0.8" />
+              </g>
+              <!-- Title block -->
+              <rect x="0" y="170" width="760" height="50" fill="#000000" opacity="0.35" />
+              <text x="380" y="191" font-family="Inter,sans-serif" font-size="9" font-weight="700" letter-spacing="2"
+                fill="#95d5b2" text-anchor="middle" text-transform="uppercase">MACHINE LEARNING · DATA SCIENCE</text>
+              <text x="380" y="210" font-family="Inter,sans-serif" font-size="15" font-weight="800" fill="#ffffff"
+                text-anchor="middle">Vegetation Recovery Rate After Wildfire Prediction</text>
+            </svg>
+            <div class="project-img-overlay">
+              <span class="project-cat">Machine Learning · Data Science</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h3 class="project-title">Vegetation Recovery Rate After Wildfire Prediction</h3>
+              <span class="project-score">R² 0.85</span>
+            </div>
+            <p class="project-desc">
+              A machine learning model that predicts the rate of vegetation recovery following wildfire events using
+              remote sensing data and environmental variables. Achieved an R² score of 0.85, demonstrating strong
+              predictive accuracy.
+            </p>
+            <div class="project-highlights">
+              <div class="highlight-item"><i class="ph ph-check"></i> R² Score of 0.85</div>
+              <div class="highlight-item"><i class="ph ph-check"></i> Remote sensing &amp; satellite data pipeline</div>
+              <div class="highlight-item"><i class="ph ph-check"></i> Comparative model benchmarking</div>
+            </div>
+            <div class="project-techs">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">Scikit-learn</span>
+              <span class="tech-badge">Pandas</span>
+              <span class="tech-badge">Matplotlib</span>
+              <span class="tech-badge">NumPy</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/mayuresh-khare/Vegetation-Recovery-Rate-After-Wildfire.git" target="_blank"
+                rel="noopener noreferrer" class="btn-github" id="github-vegetation"
+                aria-label="View Vegetation project on GitHub">
+                <i class="ph ph-github-logo"></i> View on GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card reveal-up" style="--delay:0.1s" id="project-events">
+          <div class="project-img-wrap">
+            <svg class="project-svg-placeholder" viewBox="0 0 760 220" xmlns="http://www.w3.org/2000/svg"
+              aria-label="Event Management System">
+              <defs>
+                <linearGradient id="ev-bg" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#0d1b4b" />
+                  <stop offset="60%" stop-color="#1a2f6b" />
+                  <stop offset="100%" stop-color="#2a4494" />
+                </linearGradient>
+                <filter id="ev-shadow">
+                  <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.3" />
+                </filter>
+              </defs>
+              <!-- Background -->
+              <rect width="760" height="220" fill="url(#ev-bg)" />
+              <!-- Dot grid -->
+              <g opacity="0.06">
+                <circle cx="60" cy="40" r="1.5" fill="#a5b4fc" />
+                <circle cx="120" cy="40" r="1.5" fill="#a5b4fc" />
+                <circle cx="180" cy="40" r="1.5" fill="#a5b4fc" />
+                <circle cx="240" cy="40" r="1.5" fill="#a5b4fc" />
+                <circle cx="300" cy="40" r="1.5" fill="#a5b4fc" />
+                <circle cx="360" cy="40" r="1.5" fill="#a5b4fc" />
+                <circle cx="420" cy="40" r="1.5" fill="#a5b4fc" />
+                <circle cx="480" cy="40" r="1.5" fill="#a5b4fc" />
+                <circle cx="540" cy="40" r="1.5" fill="#a5b4fc" />
+                <circle cx="600" cy="40" r="1.5" fill="#a5b4fc" />
+                <circle cx="660" cy="40" r="1.5" fill="#a5b4fc" />
+                <circle cx="720" cy="40" r="1.5" fill="#a5b4fc" />
+                <circle cx="60" cy="100" r="1.5" fill="#a5b4fc" />
+                <circle cx="120" cy="100" r="1.5" fill="#a5b4fc" />
+                <circle cx="180" cy="100" r="1.5" fill="#a5b4fc" />
+                <circle cx="240" cy="100" r="1.5" fill="#a5b4fc" />
+                <circle cx="300" cy="100" r="1.5" fill="#a5b4fc" />
+                <circle cx="360" cy="100" r="1.5" fill="#a5b4fc" />
+                <circle cx="420" cy="100" r="1.5" fill="#a5b4fc" />
+                <circle cx="480" cy="100" r="1.5" fill="#a5b4fc" />
+                <circle cx="540" cy="100" r="1.5" fill="#a5b4fc" />
+                <circle cx="600" cy="100" r="1.5" fill="#a5b4fc" />
+                <circle cx="660" cy="100" r="1.5" fill="#a5b4fc" />
+                <circle cx="720" cy="100" r="1.5" fill="#a5b4fc" />
+                <circle cx="60" cy="160" r="1.5" fill="#a5b4fc" />
+                <circle cx="120" cy="160" r="1.5" fill="#a5b4fc" />
+                <circle cx="180" cy="160" r="1.5" fill="#a5b4fc" />
+                <circle cx="240" cy="160" r="1.5" fill="#a5b4fc" />
+                <circle cx="300" cy="160" r="1.5" fill="#a5b4fc" />
+                <circle cx="360" cy="160" r="1.5" fill="#a5b4fc" />
+                <circle cx="420" cy="160" r="1.5" fill="#a5b4fc" />
+                <circle cx="480" cy="160" r="1.5" fill="#a5b4fc" />
+                <circle cx="540" cy="160" r="1.5" fill="#a5b4fc" />
+                <circle cx="600" cy="160" r="1.5" fill="#a5b4fc" />
+                <circle cx="660" cy="160" r="1.5" fill="#a5b4fc" />
+                <circle cx="720" cy="160" r="1.5" fill="#a5b4fc" />
+              </g>
+              <!-- Browser/App window chrome -->
+              <rect x="30" y="20" width="700" height="150" rx="10" fill="#ffffff" opacity="0.05"
+                filter="url(#ev-shadow)" />
+              <!-- Title bar -->
+              <rect x="30" y="20" width="700" height="28" rx="10" fill="#ffffff" opacity="0.08" />
+              <circle cx="52" cy="34" r="5" fill="#ff5f57" opacity="0.7" />
+              <circle cx="68" cy="34" r="5" fill="#ffbd2e" opacity="0.7" />
+              <circle cx="84" cy="34" r="5" fill="#28c840" opacity="0.7" />
+              <!-- Nav bar inside app -->
+              <rect x="30" y="48" width="140" height="122" rx="0" fill="#ffffff" opacity="0.04" />
+              <!-- Nav items -->
+              <rect x="42" y="60" width="110" height="22" rx="6" fill="#a5b4fc" opacity="0.25" />
+              <rect x="50" y="68" width="16" height="6" rx="3" fill="#a5b4fc" opacity="0.8" />
+              <rect x="72" y="68" width="52" height="6" rx="3" fill="#a5b4fc" opacity="0.6" />
+              <rect x="42" y="88" width="110" height="16" rx="4" fill="#ffffff" opacity="0.05" />
+              <rect x="50" y="93" width="16" height="4" rx="2" fill="#c7d2fe" opacity="0.5" />
+              <rect x="72" y="93" width="38" height="4" rx="2" fill="#c7d2fe" opacity="0.4" />
+              <rect x="42" y="110" width="110" height="16" rx="4" fill="#ffffff" opacity="0.05" />
+              <rect x="50" y="115" width="16" height="4" rx="2" fill="#c7d2fe" opacity="0.5" />
+              <rect x="72" y="115" width="50" height="4" rx="2" fill="#c7d2fe" opacity="0.4" />
+              <rect x="42" y="132" width="110" height="16" rx="4" fill="#ffffff" opacity="0.05" />
+              <rect x="50" y="137" width="16" height="4" rx="2" fill="#c7d2fe" opacity="0.5" />
+              <rect x="72" y="137" width="44" height="4" rx="2" fill="#c7d2fe" opacity="0.4" />
+              <!-- Calendar area -->
+              <rect x="178" y="56" width="540" height="110" rx="6" fill="#ffffff" opacity="0.05" />
+              <!-- Calendar header row -->
+              <text x="198" y="74" font-family="Inter,sans-serif" font-size="8" fill="#c7d2fe" opacity="0.6"
+                font-weight="600">SUN</text>
+              <text x="258" y="74" font-family="Inter,sans-serif" font-size="8" fill="#c7d2fe" opacity="0.6"
+                font-weight="600">MON</text>
+              <text x="318" y="74" font-family="Inter,sans-serif" font-size="8" fill="#c7d2fe" opacity="0.6"
+                font-weight="600">TUE</text>
+              <text x="378" y="74" font-family="Inter,sans-serif" font-size="8" fill="#c7d2fe" opacity="0.6"
+                font-weight="600">WED</text>
+              <text x="438" y="74" font-family="Inter,sans-serif" font-size="8" fill="#c7d2fe" opacity="0.6"
+                font-weight="600">THU</text>
+              <text x="498" y="74" font-family="Inter,sans-serif" font-size="8" fill="#c7d2fe" opacity="0.6"
+                font-weight="600">FRI</text>
+              <text x="558" y="74" font-family="Inter,sans-serif" font-size="8" fill="#c7d2fe" opacity="0.6"
+                font-weight="600">SAT</text>
+              <!-- Calendar day cells row 1 -->
+              <g opacity="0.85">
+                <rect x="186" y="80" width="50" height="36" rx="4" fill="#ffffff" opacity="0.04" />
+                <rect x="246" y="80" width="50" height="36" rx="4" fill="#a5b4fc" opacity="0.2" />
+                <rect x="306" y="80" width="50" height="36" rx="4" fill="#ffffff" opacity="0.04" />
+                <rect x="366" y="80" width="50" height="36" rx="4" fill="#6366f1" opacity="0.55" />
+                <rect x="426" y="80" width="50" height="36" rx="4" fill="#ffffff" opacity="0.04" />
+                <rect x="486" y="80" width="50" height="36" rx="4" fill="#a5b4fc" opacity="0.2" />
+                <rect x="546" y="80" width="50" height="36" rx="4" fill="#ffffff" opacity="0.04" />
+              </g>
+              <!-- Day numbers -->
+              <text x="198" y="96" font-family="Inter,sans-serif" font-size="9" fill="#c7d2fe" opacity="0.5"
+                text-anchor="middle">8</text>
+              <text x="258" y="96" font-family="Inter,sans-serif" font-size="9" fill="#e0e7ff" opacity="0.9"
+                text-anchor="middle">9</text>
+              <text x="318" y="96" font-family="Inter,sans-serif" font-size="9" fill="#c7d2fe" opacity="0.5"
+                text-anchor="middle">10</text>
+              <text x="378" y="96" font-family="Inter,sans-serif" font-size="9" fill="#ffffff" font-weight="700"
+                text-anchor="middle">11</text>
+              <text x="438" y="96" font-family="Inter,sans-serif" font-size="9" fill="#c7d2fe" opacity="0.5"
+                text-anchor="middle">12</text>
+              <text x="498" y="96" font-family="Inter,sans-serif" font-size="9" fill="#e0e7ff" opacity="0.9"
+                text-anchor="middle">13</text>
+              <text x="558" y="96" font-family="Inter,sans-serif" font-size="9" fill="#c7d2fe" opacity="0.5"
+                text-anchor="middle">14</text>
+              <!-- Event pills -->
+              <rect x="246" y="104" width="50" height="8" rx="4" fill="#818cf8" opacity="0.7" />
+              <rect x="366" y="104" width="50" height="8" rx="4" fill="#e0e7ff" opacity="0.85" />
+              <rect x="486" y="104" width="50" height="8" rx="4" fill="#818cf8" opacity="0.5" />
+              <!-- Calendar row 2 -->
+              <g opacity="0.5">
+                <rect x="186" y="122" width="50" height="36" rx="4" fill="#ffffff" opacity="0.04" />
+                <rect x="246" y="122" width="50" height="36" rx="4" fill="#ffffff" opacity="0.04" />
+                <rect x="306" y="122" width="110" height="36" rx="4" fill="#4f46e5" opacity="0.35" />
+                <rect x="426" y="122" width="50" height="36" rx="4" fill="#ffffff" opacity="0.04" />
+                <rect x="486" y="122" width="50" height="36" rx="4" fill="#ffffff" opacity="0.04" />
+                <rect x="546" y="122" width="50" height="36" rx="4" fill="#ffffff" opacity="0.04" />
+              </g>
+              <text x="361" y="144" font-family="Inter,sans-serif" font-size="7" fill="#e0e7ff" opacity="0.8"
+                text-anchor="middle" font-weight="600">Tech Fest · 2 days</text>
+              <!-- Title block -->
+              <rect x="0" y="170" width="760" height="50" fill="#000000" opacity="0.38" />
+              <text x="380" y="191" font-family="Inter,sans-serif" font-size="9" font-weight="700" letter-spacing="2"
+                fill="#a5b4fc" text-anchor="middle">WEB DEVELOPMENT · FULL-STACK</text>
+              <text x="380" y="210" font-family="Inter,sans-serif" font-size="15" font-weight="800" fill="#ffffff"
+                text-anchor="middle">Event Management System</text>
+            </svg>
+            <div class="project-img-overlay">
+              <span class="project-cat">Web Development · Full-Stack</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h3 class="project-title">Event Management System</h3>
+            </div>
+            <p class="project-desc">
+              A full-stack web application for managing events, registrations, and attendees. Features a clean UI for
+              organizers and participants, with secure authentication, database-driven scheduling, and real-time
+              updates.
+            </p>
+            <div class="project-highlights">
+              <div class="highlight-item"><i class="ph ph-check"></i> User authentication &amp; role management</div>
+              <div class="highlight-item"><i class="ph ph-check"></i> Dynamic event scheduling interface</div>
+              <div class="highlight-item"><i class="ph ph-check"></i> MySQL-backed data persistence</div>
+            </div>
+            <div class="project-techs">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">Flask</span>
+              <span class="tech-badge">HTML/CSS</span>
+              <span class="tech-badge">JavaScript</span>
+              <span class="tech-badge">MySQL</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/MayureshKhare" target="_blank" rel="noopener noreferrer" class="btn-github"
+                id="github-events" aria-label="View Event Management project on GitHub">
+                <i class="ph ph-github-logo"></i> View on GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card reveal-up" style="--delay:0.05s" id="project-spenddna">
+          <div class="project-img-wrap">
+            <svg class="project-svg-placeholder" viewBox="0 0 760 220" xmlns="http://www.w3.org/2000/svg"
+              aria-label="SpendDNA Financial Transaction Analysis">
+              <defs>
+                <linearGradient id="sp-bg" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#0f2027" />
+                  <stop offset="55%" stop-color="#1a3a4a" />
+                  <stop offset="100%" stop-color="#0d3349" />
+                </linearGradient>
+                <linearGradient id="sp-donut1" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#06b6d4" />
+                  <stop offset="100%" stop-color="#0ea5e9" />
+                </linearGradient>
+                <filter id="sp-glow">
+                  <feGaussianBlur stdDeviation="2.5" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+              </defs>
+              <!-- Background -->
+              <rect width="760" height="220" fill="url(#sp-bg)" />
+              <!-- Subtle noise lines -->
+              <g opacity="0.05" stroke="#7dd3fc" stroke-width="0.5">
+                <line x1="0" y1="44" x2="760" y2="44" />
+                <line x1="0" y1="88" x2="760" y2="88" />
+                <line x1="0" y1="132" x2="760" y2="132" />
+                <line x1="0" y1="176" x2="760" y2="176" />
+              </g>
+              <!-- Donut chart (left) -->
+              <!-- Segments drawn as arcs via paths on a 80r circle centered at 120,105 -->
+              <!-- Food 30% = 108deg, Transport 20% = 72deg, Shopping 25% = 90deg, Other 25% = 90deg -->
+              <circle cx="138" cy="100" r="62" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.06" />
+              <!-- Segment 1: Food #06b6d4 0→108 -->
+              <path d="M138,100 L138,38 A62,62 0 0,1 194.9,131 Z" fill="#06b6d4" opacity="0.85"
+                filter="url(#sp-glow)" />
+              <!-- Segment 2: Transport #0ea5e9 108→180 -->
+              <path d="M138,100 L194.9,131 A62,62 0 0,1 76,131 Z" fill="#38bdf8" opacity="0.75" />
+              <!-- Segment 3: Shopping #7dd3fc 180→270 -->
+              <path d="M138,100 L76,131 A62,62 0 0,1 138,38 Z" fill="#7dd3fc" opacity="0.5" />
+              <!-- Inner hole -->
+              <circle cx="138" cy="100" r="36" fill="#0f2027" />
+              <text x="138" y="96" font-family="Inter,sans-serif" font-size="14" font-weight="800" fill="#e0f2fe"
+                text-anchor="middle">₹24k</text>
+              <text x="138" y="111" font-family="Inter,sans-serif" font-size="7.5" fill="#7dd3fc" text-anchor="middle"
+                opacity="0.8">Monthly</text>
+              <!-- Legend dots -->
+              <circle cx="30" cy="158" r="5" fill="#06b6d4" />
+              <text x="40" y="162" font-family="Inter,sans-serif" font-size="8" fill="#bae6fd" opacity="0.8">Food
+                30%</text>
+              <circle cx="30" cy="172" r="5" fill="#38bdf8" />
+              <text x="40" y="176" font-family="Inter,sans-serif" font-size="8" fill="#bae6fd" opacity="0.8">Transport
+                20%</text>
+              <circle cx="30" cy="186" r="5" fill="#7dd3fc" />
+              <text x="40" y="190" font-family="Inter,sans-serif" font-size="8" fill="#bae6fd" opacity="0.8">Shopping
+                25%</text>
+              <!-- Transaction feed (right panel) -->
+              <rect x="240" y="20" width="260" height="148" rx="8" fill="#ffffff" opacity="0.05" />
+              <text x="256" y="40" font-family="Inter,sans-serif" font-size="9" font-weight="700" fill="#7dd3fc"
+                opacity="0.8" letter-spacing="1">TRANSACTIONS</text>
+              <!-- Row 1 -->
+              <rect x="252" y="48" width="232" height="22" rx="4" fill="#ffffff" opacity="0.05" />
+              <rect x="258" y="54" width="8" height="8" rx="2" fill="#06b6d4" opacity="0.7" />
+              <rect x="272" y="56" width="80" height="4" rx="2" fill="#bae6fd" opacity="0.4" />
+              <rect x="440" y="56" width="36" height="4" rx="2" fill="#34d399" opacity="0.7" />
+              <!-- Row 2 -->
+              <rect x="252" y="74" width="232" height="22" rx="4" fill="#ffffff" opacity="0.03" />
+              <rect x="258" y="80" width="8" height="8" rx="2" fill="#f59e0b" opacity="0.7" />
+              <rect x="272" y="82" width="64" height="4" rx="2" fill="#bae6fd" opacity="0.4" />
+              <rect x="440" y="82" width="28" height="4" rx="2" fill="#f87171" opacity="0.7" />
+              <!-- Row 3 -->
+              <rect x="252" y="100" width="232" height="22" rx="4" fill="#ffffff" opacity="0.05" />
+              <rect x="258" y="106" width="8" height="8" rx="2" fill="#a78bfa" opacity="0.7" />
+              <rect x="272" y="108" width="96" height="4" rx="2" fill="#bae6fd" opacity="0.4" />
+              <rect x="440" y="108" width="32" height="4" rx="2" fill="#34d399" opacity="0.7" />
+              <!-- Row 4 -->
+              <rect x="252" y="126" width="232" height="22" rx="4" fill="#ffffff" opacity="0.03" />
+              <rect x="258" y="132" width="8" height="8" rx="2" fill="#fb7185" opacity="0.7" />
+              <rect x="272" y="134" width="72" height="4" rx="2" fill="#bae6fd" opacity="0.4" />
+              <rect x="440" y="134" width="40" height="4" rx="2" fill="#f87171" opacity="0.7" />
+              <!-- Sparkline trend chart (far right) -->
+              <rect x="520" y="20" width="220" height="148" rx="8" fill="#ffffff" opacity="0.05" />
+              <text x="536" y="40" font-family="Inter,sans-serif" font-size="9" font-weight="700" fill="#7dd3fc"
+                opacity="0.8" letter-spacing="1">SPEND TREND</text>
+              <!-- Area chart -->
+              <polyline points="534,148 569,130 604,140 639,108 674,118 709,88 726,78" fill="none" stroke="#06b6d4"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" filter="url(#sp-glow)" />
+              <path d="M534,148 569,130 604,140 639,108 674,118 709,88 726,78 726,160 534,160 Z" fill="#06b6d4"
+                opacity="0.08" />
+              <!-- Data points -->
+              <circle cx="569" cy="130" r="3" fill="#06b6d4" opacity="0.9" />
+              <circle cx="604" cy="140" r="3" fill="#06b6d4" opacity="0.9" />
+              <circle cx="639" cy="108" r="3" fill="#06b6d4" opacity="0.9" />
+              <circle cx="674" cy="118" r="3" fill="#06b6d4" opacity="0.9" />
+              <circle cx="709" cy="88" r="3" fill="#7dd3fc" opacity="1" />
+              <!-- Month labels -->
+              <text x="556" y="172" font-family="Inter,sans-serif" font-size="7" fill="#7dd3fc" opacity="0.5"
+                text-anchor="middle">Jan</text>
+              <text x="604" y="172" font-family="Inter,sans-serif" font-size="7" fill="#7dd3fc" opacity="0.5"
+                text-anchor="middle">Mar</text>
+              <text x="656" y="172" font-family="Inter,sans-serif" font-size="7" fill="#7dd3fc" opacity="0.5"
+                text-anchor="middle">May</text>
+              <text x="709" y="172" font-family="Inter,sans-serif" font-size="7" fill="#7dd3fc" opacity="0.5"
+                text-anchor="middle">Jul</text>
+              <!-- Title block -->
+              <rect x="0" y="170" width="760" height="50" fill="#000000" opacity="0.38" />
+              <text x="380" y="191" font-family="Inter,sans-serif" font-size="9" font-weight="700" letter-spacing="2"
+                fill="#7dd3fc" text-anchor="middle">DATA ANALYTICS · FINTECH</text>
+              <text x="380" y="210" font-family="Inter,sans-serif" font-size="15" font-weight="800" fill="#ffffff"
+                text-anchor="middle">SpendDNA – Financial Transaction Analysis</text>
+            </svg>
+            <div class="project-img-overlay">
+              <span class="project-cat">Data Analytics · FinTech</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h3 class="project-title">SpendDNA – Financial Transaction Analysis</h3>
+            </div>
+            <p class="project-desc">
+              A data analytics tool that decodes personal spending patterns from transaction records. Provides visual
+              breakdowns, category clustering, and actionable insights to help users understand and optimize their
+              financial behavior.
+            </p>
+            <div class="project-highlights">
+              <div class="highlight-item"><i class="ph ph-check"></i> Automated transaction categorization</div>
+              <div class="highlight-item"><i class="ph ph-check"></i> Visual spending dashboards</div>
+              <div class="highlight-item"><i class="ph ph-check"></i> Pattern recognition &amp; trend analysis</div>
+            </div>
+            <div class="project-techs">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">Pandas</span>
+              <span class="tech-badge">Matplotlib</span>
+              <span class="tech-badge">NumPy</span>
+              <span class="tech-badge">Jupyter</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/mayuresh-khare/SpendDNA-Financial-Transaction-Analysis.git" target="_blank"
+                rel="noopener noreferrer" class="btn-github" id="github-spenddna"
+                aria-label="View SpendDNA project on GitHub">
+                <i class="ph ph-github-logo"></i> View on GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card reveal-up" style="--delay:0.1s" id="project-redflag">
+          <div class="project-img-wrap">
+            <svg class="project-svg-placeholder" viewBox="0 0 760 220" xmlns="http://www.w3.org/2000/svg"
+              aria-label="RedFlag Fraud Detection System">
+              <defs>
+                <linearGradient id="rf-bg" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#1a0a0a" />
+                  <stop offset="50%" stop-color="#2d1515" />
+                  <stop offset="100%" stop-color="#1f0e1e" />
+                </linearGradient>
+                <filter id="rf-glow-red">
+                  <feGaussianBlur stdDeviation="4" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <filter id="rf-glow-sm">
+                  <feGaussianBlur stdDeviation="2" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+              </defs>
+              <!-- Background -->
+              <rect width="760" height="220" fill="url(#rf-bg)" />
+              <!-- Subtle hex grid pattern -->
+              <g opacity="0.04" stroke="#ef4444" stroke-width="0.6" fill="none">
+                <polygon points="60,20 80,20 90,36 80,52 60,52 50,36" />
+                <polygon points="100,20 120,20 130,36 120,52 100,52 90,36" />
+                <polygon points="140,20 160,20 170,36 160,52 140,52 130,36" />
+                <polygon points="60,68 80,68 90,84 80,100 60,100 50,84" />
+                <polygon points="100,68 120,68 130,84 120,100 100,100 90,84" />
+                <polygon points="140,68 160,68 170,84 160,100 140,100 130,84" />
+              </g>
+              <!-- Network graph nodes -->
+              <!-- Safe nodes -->
+              <circle cx="260" cy="60" r="8" fill="#6b7280" opacity="0.5" />
+              <circle cx="310" cy="90" r="8" fill="#6b7280" opacity="0.5" />
+              <circle cx="270" cy="130" r="8" fill="#6b7280" opacity="0.5" />
+              <circle cx="360" cy="55" r="8" fill="#6b7280" opacity="0.5" />
+              <circle cx="410" cy="100" r="8" fill="#6b7280" opacity="0.5" />
+              <circle cx="370" cy="145" r="8" fill="#6b7280" opacity="0.5" />
+              <circle cx="450" cy="60" r="8" fill="#6b7280" opacity="0.5" />
+              <circle cx="460" cy="140" r="8" fill="#6b7280" opacity="0.5" />
+              <!-- Safe edges -->
+              <g stroke="#6b7280" stroke-width="1" opacity="0.25">
+                <line x1="260" y1="60" x2="310" y2="90" />
+                <line x1="310" y1="90" x2="270" y2="130" />
+                <line x1="310" y1="90" x2="360" y2="55" />
+                <line x1="360" y1="55" x2="410" y2="100" />
+                <line x1="410" y1="100" x2="370" y2="145" />
+                <line x1="410" y1="100" x2="450" y2="60" />
+                <line x1="410" y1="100" x2="460" y2="140" />
+                <line x1="270" y1="130" x2="370" y2="145" />
+              </g>
+              <!-- Flagged hub node -->
+              <circle cx="340" cy="100" r="16" fill="#ef4444" opacity="0.18" filter="url(#rf-glow-red)" />
+              <circle cx="340" cy="100" r="10" fill="#ef4444" opacity="0.6" filter="url(#rf-glow-red)" />
+              <circle cx="340" cy="100" r="5" fill="#fca5a5" />
+              <!-- Flagged edges (red) -->
+              <g stroke="#ef4444" stroke-width="1.5" opacity="0.7" filter="url(#rf-glow-sm)">
+                <line x1="340" y1="100" x2="310" y2="90" />
+                <line x1="340" y1="100" x2="360" y2="55" />
+                <line x1="340" y1="100" x2="410" y2="100" />
+                <line x1="340" y1="100" x2="270" y2="130" />
+              </g>
+              <!-- Secondary flagged node -->
+              <circle cx="220" cy="95" r="8" fill="#f97316" opacity="0.7" filter="url(#rf-glow-sm)" />
+              <circle cx="220" cy="95" r="4" fill="#fdba74" />
+              <line x1="220" y1="95" x2="260" y2="60" stroke="#f97316" stroke-width="1.5" opacity="0.5" />
+              <line x1="220" y1="95" x2="270" y2="130" stroke="#f97316" stroke-width="1.5" opacity="0.5" />
+              <!-- Alert pulse rings -->
+              <circle cx="340" cy="100" r="22" fill="none" stroke="#ef4444" stroke-width="1" opacity="0.3" />
+              <circle cx="340" cy="100" r="30" fill="none" stroke="#ef4444" stroke-width="0.5" opacity="0.15" />
+              <!-- Shield icon (left panel) -->
+              <g transform="translate(40, 30)" opacity="0.7">
+                <path d="M30 4 L54 14 L54 32 C54 44 44 52 30 58 C16 52 6 44 6 32 L6 14 Z" stroke="#ef4444"
+                  stroke-width="2" fill="#ef4444" fill-opacity="0.08" />
+                <!-- Checkmark X -->
+                <line x1="20" y1="28" x2="26" y2="34" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round" />
+                <line x1="26" y1="34" x2="40" y2="22" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round"
+                  opacity="0" />
+                <line x1="20" y1="22" x2="40" y2="38" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round" />
+                <line x1="40" y1="22" x2="20" y2="38" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round" />
+              </g>
+              <!-- Score panel (right) -->
+              <rect x="520" y="22" width="210" height="138" rx="8" fill="#ffffff" opacity="0.04" />
+              <text x="538" y="44" font-family="Inter,sans-serif" font-size="9" font-weight="700" fill="#fca5a5"
+                opacity="0.9" letter-spacing="1">ANOMALY SCORE</text>
+              <!-- Score bar rows -->
+              <rect x="538" y="52" width="174" height="14" rx="3" fill="#ffffff" opacity="0.04" />
+              <rect x="538" y="52" width="158" height="14" rx="3" fill="#ef4444" opacity="0.6" />
+              <text x="716" y="63" font-family="Inter,sans-serif" font-size="8" fill="#fca5a5" text-anchor="end"
+                opacity="0.8">0.91</text>
+
+              <rect x="538" y="72" width="174" height="14" rx="3" fill="#ffffff" opacity="0.04" />
+              <rect x="538" y="72" width="90" height="14" rx="3" fill="#f97316" opacity="0.5" />
+              <text x="716" y="83" font-family="Inter,sans-serif" font-size="8" fill="#fca5a5" text-anchor="end"
+                opacity="0.8">0.52</text>
+
+              <rect x="538" y="92" width="174" height="14" rx="3" fill="#ffffff" opacity="0.04" />
+              <rect x="538" y="92" width="40" height="14" rx="3" fill="#4ade80" opacity="0.4" />
+              <text x="716" y="103" font-family="Inter,sans-serif" font-size="8" fill="#fca5a5" text-anchor="end"
+                opacity="0.8">0.23</text>
+
+              <rect x="538" y="112" width="174" height="14" rx="3" fill="#ffffff" opacity="0.04" />
+              <rect x="538" y="112" width="20" height="14" rx="3" fill="#4ade80" opacity="0.4" />
+              <text x="716" y="123" font-family="Inter,sans-serif" font-size="8" fill="#fca5a5" text-anchor="end"
+                opacity="0.8">0.11</text>
+              <!-- Flag labels -->
+              <rect x="538" y="134" width="60" height="18" rx="9" fill="#ef4444" opacity="0.2" />
+              <text x="568" y="147" font-family="Inter,sans-serif" font-size="8" font-weight="700" fill="#fca5a5"
+                text-anchor="middle">FLAGGED</text>
+              <rect x="606" y="134" width="50" height="18" rx="9" fill="#f97316" opacity="0.2" />
+              <text x="631" y="147" font-family="Inter,sans-serif" font-size="8" font-weight="700" fill="#fdba74"
+                text-anchor="middle">REVIEW</text>
+              <!-- Title block -->
+              <rect x="0" y="170" width="760" height="50" fill="#000000" opacity="0.42" />
+              <text x="380" y="191" font-family="Inter,sans-serif" font-size="9" font-weight="700" letter-spacing="2"
+                fill="#fca5a5" text-anchor="middle">MACHINE LEARNING · CYBERSECURITY</text>
+              <text x="380" y="210" font-family="Inter,sans-serif" font-size="15" font-weight="800" fill="#ffffff"
+                text-anchor="middle">RedFlag – Fraud Detection System</text>
+            </svg>
+            <div class="project-img-overlay">
+              <span class="project-cat">Machine Learning · Cybersecurity</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h3 class="project-title">RedFlag – Fraud Detection System</h3>
+            </div>
+            <p class="project-desc">
+              A SQL-based fraud detection system developed using MySQL to analyze over 200,000 simulated digital payment
+              transactions.
+              The project identifies multiple real-world fraud patterns using advanced SQL techniques such as CTEs,
+              window functions,
+              aggregate functions, and conditional logic.
+            </p>
+            <div class="project-highlights">
+              <div class="highlight-item"><i class="ph ph-check"></i> Detected 12 real-world fraud patterns using SQL
+              </div>
+              <div class="highlight-item"><i class="ph ph-check"></i> Applied CTEs, Window Functions, CASE, GROUP BY &
+                HAVING</div>
+              <div class="highlight-item"><i class="ph ph-check"></i> Analyzed 200,594 simulated fintech transactions in
+                MySQL</div>
+            </div>
+            <div class="project-techs">
+              <span class="tech-badge">SQL</span>
+              <span class="tech-badge">Window Functions</span>
+              <span class="tech-badge">MySQL</span>
+              <span class="tech-badge">CTE</span>
+              <span class="tech-badge">mysql8</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/mayuresh-khare/RedFlag-Fraud-Detection-Using-SQL.git" target="_blank"
+                rel="noopener noreferrer" class="btn-github" id="github-redflag"
+                aria-label="View RedFlag project on GitHub">
+                <i class="ph ph-github-logo"></i> View on GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LEARNING JOURNEY ===== -->
+  <section id="learning-journey" class="section lj-section bg-subtle">
+    <div class="container">
+      <div class="section-label reveal-up">Timeline</div>
+      <h2 class="section-heading reveal-up">Learning Journey</h2>
+      <p class="section-sub reveal-up">A chronological view of milestones — from the first day of college to what I'm
+        building and learning right now.</p>
+
+      <!-- Scrollable timeline track -->
+      <div class="lj-scroll-wrapper reveal-up" style="--delay:0.1s">
+        <div class="lj-track" id="lj-track">
+
+          <!-- ── Milestone 1 ── -->
+          <div class="lj-item" id="lj-1">
+            <div class="lj-card">
+              <div class="lj-card-icon" style="--lj-hue:217"><i class="ph ph-student"></i></div>
+              <div class="lj-date-badge">Aug 2024</div>
+              <h3 class="lj-card-title">B.Tech Computer Engineering</h3>
+              <p class="lj-card-desc">Started at Lokmanya Tilak College of Engineering, Mumbai — with Honours in AI
+                &amp; Data Science.</p>
+              <span class="lj-tag" style="--lj-tag-hue:217">Education</span>
+            </div>
+            <div class="lj-connector">
+              <div class="lj-dot"></div>
+              <div class="lj-line"></div>
+            </div>
+          </div>
+
+          <!-- ── Milestone 2 ── -->
+          <div class="lj-item" id="lj-2">
+            <div class="lj-card">
+              <div class="lj-card-icon" style="--lj-hue:142"><i class="ph ph-leaf"></i></div>
+              <div class="lj-date-badge">Jun 2025</div>
+              <h3 class="lj-card-title">Green Skills using AI</h3>
+              <p class="lj-card-desc">Certification from Edunet Foundation — applying ML to sustainability and
+                environmental challenges.</p>
+              <span class="lj-tag" style="--lj-tag-hue:142">Certification</span>
+            </div>
+            <div class="lj-connector">
+              <div class="lj-dot"></div>
+              <div class="lj-line"></div>
+            </div>
+          </div>
+
+          <!-- ── Milestone 3 ── -->
+          <div class="lj-item" id="lj-3">
+            <div class="lj-card">
+              <div class="lj-card-icon" style="--lj-hue:0"><i class="ph ph-shield-check"></i></div>
+              <div class="lj-date-badge">Mar – Apr 2025</div>
+              <h3 class="lj-card-title">Cybersecurity Internship</h3>
+              <p class="lj-card-desc">Virtual internship through NIIT Foundation &amp; Cisco Networking Academy —
+                network security and threat analysis.</p>
+              <span class="lj-tag" style="--lj-tag-hue:0">Internship</span>
+            </div>
+            <div class="lj-connector">
+              <div class="lj-dot"></div>
+              <div class="lj-line"></div>
+            </div>
+          </div>
+
+          <!-- ── Milestone 4 ── -->
+          <div class="lj-item" id="lj-4">
+            <div class="lj-card">
+              <div class="lj-card-icon" style="--lj-hue:210"><i class="ph ph-cloud"></i></div>
+              <div class="lj-date-badge">Jun – Jul 2025</div>
+              <h3 class="lj-card-title">Gen AI &amp; Cloud Internship</h3>
+              <p class="lj-card-desc">AICTE | IBM SkillsBuild program — Generative AI, prompt engineering, and cloud
+                computing with hands-on labs.</p>
+              <span class="lj-tag" style="--lj-tag-hue:210">Internship</span>
+            </div>
+            <div class="lj-connector">
+              <div class="lj-dot"></div>
+              <div class="lj-line"></div>
+            </div>
+          </div>
+
+          <!-- ── Milestone 5 ── -->
+          <div class="lj-item" id="lj-5">
+            <div class="lj-card">
+              <div class="lj-card-icon" style="--lj-hue:258"><i class="ph ph-calendar-blank"></i></div>
+              <div class="lj-date-badge">2025 – 2026</div>
+              <h3 class="lj-card-title">Event Management System</h3>
+              <p class="lj-card-desc">Full-stack Flask + MySQL web app with role-based auth, dynamic scheduling, and
+                real-time event management.</p>
+              <span class="lj-tag" style="--lj-tag-hue:258">Project</span>
+            </div>
+            <div class="lj-connector">
+              <div class="lj-dot"></div>
+              <div class="lj-line"></div>
+            </div>
+          </div>
+
+          <!-- ── Milestone 6 ── -->
+          <div class="lj-item" id="lj-6">
+            <div class="lj-card">
+              <div class="lj-card-icon" style="--lj-hue:142"><i class="ph ph-tree"></i></div>
+              <div class="lj-date-badge">2025 – 2026</div>
+              <h3 class="lj-card-title">Vegetation Recovery Prediction</h3>
+              <p class="lj-card-desc">ML model predicting post-wildfire recovery from satellite data. Achieved R² = 0.85
+                across multiple algorithms.</p>
+              <span class="lj-tag" style="--lj-tag-hue:142">Project</span>
+            </div>
+            <div class="lj-connector">
+              <div class="lj-dot"></div>
+              <div class="lj-line"></div>
+            </div>
+          </div>
+
+          <!-- ── Milestone 7 ── -->
+          <div class="lj-item" id="lj-7">
+            <div class="lj-card">
+              <div class="lj-card-icon" style="--lj-hue:195"><i class="ph ph-chart-donut"></i></div>
+              <div class="lj-date-badge">2026</div>
+              <h3 class="lj-card-title">SpendDNA</h3>
+              <p class="lj-card-desc">Financial transaction analyser — clustering spending patterns, visual dashboards,
+                and trend detection with Pandas.</p>
+              <span class="lj-tag" style="--lj-tag-hue:195">Project</span>
+            </div>
+            <div class="lj-connector">
+              <div class="lj-dot"></div>
+              <div class="lj-line"></div>
+            </div>
+          </div>
+
+          <!-- ── Milestone 8 ── -->
+          <div class="lj-item" id="lj-8">
+            <div class="lj-card">
+              <div class="lj-card-icon" style="--lj-hue:0"><i class="ph ph-flag"></i></div>
+              <div class="lj-date-badge">2026</div>
+              <h3 class="lj-card-title">RedFlag Fraud Detection</h3>
+              <p class="lj-card-desc">ML-powered system detecting fraudulent transactions via anomaly detection and
+                classification on imbalanced datasets.</p>
+              <span class="lj-tag" style="--lj-tag-hue:0">Project</span>
+            </div>
+            <div class="lj-connector">
+              <div class="lj-dot"></div>
+              <div class="lj-line"></div>
+            </div>
+          </div>
+
+          <!-- ── Currently Learning (glowing terminal card) ── -->
+          <div class="lj-item lj-item-now" id="lj-now">
+            <div class="lj-card lj-card-now">
+              <div class="lj-now-pulse" aria-hidden="true"></div>
+              <div class="lj-card-icon" style="--lj-hue:217"><i class="ph ph-lightning"></i></div>
+              <div class="lj-date-badge lj-now-badge">Now</div>
+              <h3 class="lj-card-title">Currently Learning</h3>
+              <ul class="lj-now-list">
+                <li><i class="ph ph-brain"></i> Data Structures &amp; Algorithms</li>
+                <li><i class="ph ph-stack"></i> Backend Development</li>
+                <li><i class="ph ph-chart-line-up"></i> Machine Learning</li>
+                <li><i class="ph ph-cloud"></i> Cloud Computing</li>
+              </ul>
+            </div>
+            <div class="lj-connector lj-connector-last">
+              <div class="lj-dot lj-dot-now"></div>
+            </div>
+          </div>
+
+        </div><!-- /.lj-track -->
+
+        <!-- Scroll fade hints -->
+        <div class="lj-fade-left" aria-hidden="true"></div>
+        <div class="lj-fade-right" aria-hidden="true"></div>
+
+        <!-- Scroll arrows -->
+        <button class="lj-arrow lj-arrow-left" id="lj-prev" aria-label="Scroll timeline left"><i
+            class="ph ph-caret-left"></i></button>
+        <button class="lj-arrow lj-arrow-right" id="lj-next" aria-label="Scroll timeline right"><i
+            class="ph ph-caret-right"></i></button>
+      </div><!-- /.lj-scroll-wrapper -->
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section id="certifications" class="section certifications cert-glass-section">
+    <!-- Decorative background blobs for glassmorphism context -->
+    <div class="cert-blob cert-blob-1" aria-hidden="true"></div>
+    <div class="cert-blob cert-blob-2" aria-hidden="true"></div>
+    <div class="cert-blob cert-blob-3" aria-hidden="true"></div>
+    <div class="container" style="position:relative;z-index:1;">
+      <div class="section-label reveal-up">Credentials</div>
+      <h2 class="section-heading reveal-up">Certifications</h2>
+      <p class="section-sub reveal-up">Industry-recognised programs completed alongside my degree — focused on AI,
+        cloud, green tech, and cybersecurity.</p>
+
+      <div class="cert-glass-grid">
+
+        <!-- Cert 1 — IBM SkillsBuild -->
+        <article class="cert-glass-card reveal-up"
+          style="--delay:0.05s;--cert-accent:#0043ce;--cert-accent-rgb:0,67,206" id="cert-ibm">
+          <div class="cert-glass-accent-bar"></div>
+          <div class="cert-glass-inner">
+            <!-- Top row: icon + org badge -->
+            <div class="cert-glass-top">
+              <div class="cert-glass-icon-wrap">
+                <i class="ph ph-medal"></i>
+              </div>
+              <span class="cert-glass-org-badge">AICTE &amp; IBM SkillsBuild</span>
+            </div>
+            <!-- Name -->
+            <h3 class="cert-glass-name">Gen AI &amp; Cloud Computing Internship</h3>
+            <!-- Date -->
+            <div class="cert-glass-meta">
+              <span class="cert-glass-date">
+                <i class="ph ph-calendar-check"></i>
+                2024
+              </span>
+              <span class="cert-glass-type">Internship Certificate</span>
+            </div>
+            <!-- Skills -->
+            <div class="cert-glass-skills-label">Skills Learned</div>
+            <div class="cert-glass-skills">
+              <span class="cert-glass-skill">Generative AI</span>
+              <span class="cert-glass-skill">Prompt Engineering</span>
+              <span class="cert-glass-skill">Cloud Computing</span>
+              <span class="cert-glass-skill">IBM Watson</span>
+              <span class="cert-glass-skill">LLMs</span>
+            </div>
+            <!-- Action -->
+            <a href="Completion Certificate _ SkillsBuild.pdf" target="_blank" rel="noopener noreferrer"
+              class="cert-glass-btn" id="cert-preview-ibm" aria-label="Preview IBM SkillsBuild certificate">
+              <i class="ph ph-certificate"></i>
+              Preview Certificate
+              <i class="ph ph-arrow-up-right cert-glass-btn-arrow"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- Cert 2 — Edunet / Green Skills -->
+        <article class="cert-glass-card reveal-up"
+          style="--delay:0.12s;--cert-accent:#166534;--cert-accent-rgb:22,101,52" id="cert-green">
+          <div class="cert-glass-accent-bar"></div>
+          <div class="cert-glass-inner">
+            <div class="cert-glass-top">
+              <div class="cert-glass-icon-wrap">
+                <i class="ph ph-leaf"></i>
+              </div>
+              <span class="cert-glass-org-badge">Edunet Foundation</span>
+            </div>
+            <h3 class="cert-glass-name">Green Skills using AI Technologies</h3>
+            <div class="cert-glass-meta">
+              <span class="cert-glass-date">
+                <i class="ph ph-calendar-check"></i>
+                2024
+              </span>
+              <span class="cert-glass-type">Completion Certificate</span>
+            </div>
+            <div class="cert-glass-skills-label">Skills Learned</div>
+            <div class="cert-glass-skills">
+              <span class="cert-glass-skill">AI for Sustainability</span>
+              <span class="cert-glass-skill">Machine Learning</span>
+              <span class="cert-glass-skill">Green Technology</span>
+              <span class="cert-glass-skill">Environmental Data Analysis</span>
+            </div>
+            <a href="Mayuresh Khare_Completion.pdf" target="_blank" rel="noopener noreferrer" class="cert-glass-btn"
+              id="cert-preview-green" aria-label="Preview Edunet Green Skills certificate">
+              <i class="ph ph-certificate"></i>
+              Preview Certificate
+              <i class="ph ph-arrow-up-right cert-glass-btn-arrow"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- Cert 3 — NIIT / Cisco Cybersecurity -->
+        <article class="cert-glass-card reveal-up" style="--delay:0.2s;--cert-accent:#7c0000;--cert-accent-rgb:124,0,0"
+          id="cert-cyber">
+          <div class="cert-glass-accent-bar"></div>
+          <div class="cert-glass-inner">
+            <div class="cert-glass-top">
+              <div class="cert-glass-icon-wrap">
+                <i class="ph ph-shield-check"></i>
+              </div>
+              <span class="cert-glass-org-badge">NIIT Foundation &amp; Cisco</span>
+            </div>
+            <h3 class="cert-glass-name">Cybersecurity Virtual Internship</h3>
+            <div class="cert-glass-meta">
+              <span class="cert-glass-date">
+                <i class="ph ph-calendar-check"></i>
+                2024
+              </span>
+              <span class="cert-glass-type">Internship Certificate</span>
+            </div>
+            <div class="cert-glass-skills-label">Skills Learned</div>
+            <div class="cert-glass-skills">
+              <span class="cert-glass-skill">Network Security</span>
+              <span class="cert-glass-skill">Threat Analysis</span>
+              <span class="cert-glass-skill">Secure System Design</span>
+              <span class="cert-glass-skill">Cisco Networking</span>
+            </div>
+            <a href="NIIT certificate.jpg" target="_blank" rel="noopener noreferrer" class="cert-glass-btn"
+              id="cert-preview-cyber" aria-label="Preview NIIT Cybersecurity certificate">
+              <i class="ph ph-certificate"></i>
+              Preview Certificate
+              <i class="ph ph-arrow-up-right cert-glass-btn-arrow"></i>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== LEADERSHIP ===== -->
+  <section id="leadership" class="section leadership bg-subtle">
+    <div class="container">
+      <div class="section-label reveal-up">Growth</div>
+      <h2 class="section-heading reveal-up">Leadership &amp; Professional Development</h2>
+      <div class="leadership-grid">
+
+        <div class="leadership-card reveal-left" id="leadership-summit">
+          <div class="leadership-icon" aria-hidden="true"><i class="ph ph-presentation-chart"></i></div>
+          <div class="leadership-content">
+            <h3>Model Business Summit</h3>
+            <p>Participated in a competitive business simulation summit, developing strategic thinking, stakeholder
+              communication, and professional presentation skills in a high-pressure, real-world-inspired environment.
+            </p>
+            <div class="leadership-skill-row">
+              <span class="l-skill">Strategic Thinking</span>
+              <span class="l-skill">Communication</span>
+              <span class="l-skill">Presentation</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="leadership-card reveal-right" id="leadership-certifications">
+          <div class="leadership-icon" aria-hidden="true"><i class="ph ph-certificate"></i></div>
+          <div class="leadership-content">
+            <h3>Continuous Professional Learning</h3>
+            <p>Actively pursuing certifications beyond the academic curriculum — from AI &amp; Cloud Computing to
+              Cybersecurity — demonstrating a proactive commitment to staying current with industry trends and expanding
+              technical expertise.</p>
+            <div class="leadership-skill-row">
+              <span class="l-skill">Self-Motivation</span>
+              <span class="l-skill">Adaptability</span>
+              <span class="l-skill">Initiative</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="leadership-card reveal-left" id="leadership-projects">
+          <div class="leadership-icon" aria-hidden="true"><i class="ph ph-git-pull-request"></i></div>
+          <div class="leadership-content">
+            <h3>Engineering &amp; Analytics Projects</h3>
+            <p>Independently conceptualized and delivered multiple software engineering and data analytics projects —
+              spanning machine learning, web development, and financial analytics — demonstrating end-to-end project
+              ownership and technical execution.</p>
+            <div class="leadership-skill-row">
+              <span class="l-skill">Project Ownership</span>
+              <span class="l-skill">Technical Execution</span>
+              <span class="l-skill">Problem Solving</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESUME ===== -->
+  <section id="resume" class="section resume">
+    <div class="container">
+      <div class="resume-inner reveal-up">
+        <div class="resume-text">
+          <div class="section-label" style="text-align:left;">Resume</div>
+          <h2 class="section-heading" style="text-align:left;margin-bottom:1rem;">Download My Resume</h2>
+          <p>Get a comprehensive overview of my education, projects, certifications, and skills in a single document —
+            formatted for internship applications and technical interviews.</p>
+        </div>
+        <div class="resume-action">
+          <a href="MK resume.pdf" download="MK resume.pdf" class="btn btn-primary btn-large" id="download-resume"
+            aria-label="Download Mayuresh Khare resume PDF">
+            <i class="ph ph-download-simple"></i>
+            Download Resume
+          </a>
+          <p class="resume-format">PDF · Updated 2025</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact bg-subtle">
+    <div class="container">
+      <div class="section-label reveal-up">Let's Connect</div>
+      <h2 class="section-heading reveal-up">Get In Touch</h2>
+      <p class="section-sub reveal-up">I'm open to internship opportunities, collaborations, and conversations about
+        technology. Feel free to reach out through any of the channels below.</p>
+      <div class="contact-grid">
+
+        <a href="mailto:mayureshkhare34@gmail.com" class="contact-card reveal-up" style="--delay:0.05s"
+          id="contact-email" aria-label="Send email to Mayuresh">
+          <div class="contact-icon"><i class="ph ph-envelope"></i></div>
+          <div class="contact-info">
+            <div class="contact-label">Email</div>
+            <div class="contact-value">mayureshkhare34@gmail.com</div>
+          </div>
+        </a>
+
+        <a href="tel:+91 7977815078" class="contact-card reveal-up" style="--delay:0.1s" id="contact-phone"
+          aria-label="Call Mayuresh">
+          <div class="contact-icon"><i class="ph ph-phone"></i></div>
+          <div class="contact-info">
+            <div class="contact-label">Phone</div>
+            <div class="contact-value">+91 7977815078</div>
+          </div>
+        </a>
+
+        <a href="https://github.com/mayuresh-khare" target="_blank" rel="noopener noreferrer"
+          class="contact-card reveal-up" style="--delay:0.15s" id="contact-github"
+          aria-label="Visit Mayuresh's GitHub profile">
+          <div class="contact-icon"><i class="ph ph-github-logo"></i></div>
+          <div class="contact-info">
+            <div class="contact-label">GitHub</div>
+            <div class="contact-value">github.com/mayuresh-khare</div>
+          </div>
+          <i class="ph ph-arrow-up-right contact-arrow"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/mayuresh-khare-b68845383" target="_blank" rel="noopener noreferrer"
+          class="contact-card reveal-up" style="--delay:0.2s" id="contact-linkedin"
+          aria-label="Visit Mayuresh's LinkedIn profile">
+          <div class="contact-icon"><i class="ph ph-linkedin-logo"></i></div>
+          <div class="contact-info">
+            <div class="contact-label">LinkedIn</div>
+            <div class="contact-value">linkedin.com/in/mayuresh-khare-b68845383</div>
+          </div>
+          <i class="ph ph-arrow-up-right contact-arrow"></i>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <span class="logo-initials">MK</span>
+          <span class="footer-name">Mayuresh Khare</span>
+        </div>
+        <p class="footer-tagline">Computer Engineering Student · AI &amp; Data Science Honors</p>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <p class="footer-copy">© 2025 Mayuresh Khare. Crafted with care.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
